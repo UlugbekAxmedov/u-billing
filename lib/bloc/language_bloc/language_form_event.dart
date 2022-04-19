@@ -1,0 +1,7 @@
+part of 'language_form_bloc.dart';
+
+@freezed
+
+class LanguageFormEvent with _$LanguageFormEvent {
+  const factory LanguageFormEvent.selectedLocale(Locale locale) = _SelectedLocale;
+}
